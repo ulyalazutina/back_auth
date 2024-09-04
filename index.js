@@ -11,5 +11,5 @@ app.use(auth)
 app.use(router)
 app.use(cors())
 app.listen(8080, () => {
-    console.log("JSON SERVER work");
+    console.log("JSON SERVER worked");
 })
